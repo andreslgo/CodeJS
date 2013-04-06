@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example for Fields Validation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/jquery-1.9.0.min.js"></script>
+        <script src="js/fields.validation.js"></script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <label for="integer">Integer:</label><input type="text" name="integer" id="integer" /><br />
+                <label for="float">Float:</label><input type="text" name="float" id="float" />
+            </form>
+        </div>
+    </body>
+    <script>
+        $("#integer").entero();
+        $("#float").decimal();
+    </script>
+</html>
