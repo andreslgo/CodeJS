@@ -1,4 +1,4 @@
-CodeJS - [jQuery Fields Validation Plugin]
+CodeJS - jQuery Fields Validation Plugin
 ================================
 
 Fields validation using Jquery
